@@ -13,14 +13,14 @@
 <meta property="og:title" content="Priority Lock &amp; Security | Locksmith &amp; Physical Security in Tampa, FL">
 <meta property="og:description" content="Residential or Business. We have got you covered. Priority Lock and Security knows locks. We handle everything from the front door of your house to the electronic locks on your business. Tampa, Florida. Text 813-421-4787.">
 <meta property="og:url" content="https://prioritylocks.com/">
-<meta property="og:image" content="https://prioritylocks.com/images/hero-vehicle.jpg">
+<meta property="og:image" content="https://prioritylocks.com/images/hero-building-shield.jpg">
 <meta property="og:image:width" content="1281">
 <meta property="og:image:height" content="693">
 <meta property="og:image:alt" content="Priority Lock and Security service vehicle marked with the company logo, in front of a Tampa commercial building">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Priority Lock &amp; Security | Tampa Locksmith &amp; Physical Security">
 <meta name="twitter:description" content="Residential starts at $100 per hour. Commercial starts at $125 per hour. One hour minimum on both. Text 813-421-4787.">
-<meta name="twitter:image" content="https://prioritylocks.com/images/hero-vehicle.jpg">
+<meta name="twitter:image" content="https://prioritylocks.com/images/hero-building-shield.jpg">
 
 <meta name="geo.region" content="US-FL">
 <meta name="geo.placename" content="Tampa, Florida">
@@ -335,10 +335,10 @@ img{max-width:100%;height:auto;display:block}
   background:var(--navy-dark);
   background-image:
     linear-gradient(160deg,rgba(42,73,125,.93) 0%,rgba(29,51,87,.97) 62%,rgba(29,51,87,.99) 100%),
-    image-set(url("images/hero-vehicle.jpg") 1x);
+    image-set(url("images/hero-building-shield.jpg") 1x);
   background-image:
     linear-gradient(160deg,rgba(42,73,125,.93) 0%,rgba(29,51,87,.97) 62%,rgba(29,51,87,.99) 100%),
-    url("images/hero-vehicle.jpg");
+    url("images/hero-building-shield.jpg");
   background-size:cover,cover;
   background-position:center,center top;
   background-repeat:no-repeat,no-repeat;
@@ -346,7 +346,7 @@ img{max-width:100%;height:auto;display:block}
 @media(max-width:900px){
   .hero{background-image:
     linear-gradient(160deg,rgba(42,73,125,.94) 0%,rgba(29,51,87,.98) 70%,rgba(29,51,87,.99) 100%),
-    url("images/hero-vehicle-small.jpg")}
+    url("images/hero-building-shield-small.jpg")}
 }
 .hero h1{color:#fff;max-width:20ch}
 .hero .tagline{
@@ -513,6 +513,11 @@ details p{padding:0 22px 20px;font-size:.96rem}
 .gallery img{width:100%;aspect-ratio:4/3;object-fit:cover;background:var(--bg-alt)}
 .gallery figcaption{padding:13px 16px;font-size:.88rem;color:var(--body)}
 
+/* single feature photo. Width capped so it never dominates the section. */
+.feature-photo{margin:26px auto 0;max-width:540px;min-width:0}
+.feature-photo img{width:100%;border-radius:11px;border:1px solid var(--line)}
+.feature-photo figcaption{margin-top:10px;font-size:.88rem;color:var(--body);text-align:center}
+
 /* areas */
 .areas{display:flex;flex-wrap:wrap;gap:9px;margin-top:8px;list-style:none}
 .areas li{background:#fff;border:1px solid var(--line);border-radius:20px;padding:7px 15px;font-size:.9rem;font-weight:600;color:var(--ink)}
@@ -604,9 +609,7 @@ footer a:hover{color:#fff}
     <nav class="nav" id="nav" aria-label="Main">
       <a href="#residential">Residential</a>
       <a href="#commercial">Commercial</a>
-      <a class="btn btn-primary" href="sms:+18134214787">Text 813-421-4787</a>
     </nav>
-    <a class="btn btn-primary head-cta" href="sms:+18134214787">Text 813-421-4787</a>
     <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav">&#9776;</button>
   </div>
 </header>
@@ -855,6 +858,11 @@ footer a:hover{color:#fff}
       <div><strong>2021</strong><span>Florida LLC, operating since</span></div>
       <div><strong>90 days</strong><span>Workmanship warranty</span></div>
     </div>
+
+    <figure class="feature-photo">
+      <img src="images/owner-handshake-office.jpg" alt="A uniformed Priority Lock and Security technician shaking hands with a business customer inside a Tampa office, company logo on the wall behind them" loading="lazy" width="1000" height="957">
+      <figcaption>Straight dealing with the person who does the work</figcaption>
+    </figure>
 
     <div class="owner" style="margin-top:26px">
       <h2>Steven Wathen, owner</h2>
