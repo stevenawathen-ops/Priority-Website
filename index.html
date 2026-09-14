@@ -260,7 +260,9 @@ a,button,input,select,textarea{transition:background .2s,color .2s,border-color 
     <div style="background:#f7f8fc;border:1px solid #eef0f6;border-radius:16px;padding:clamp(24px,3vw,38px)">
       <h3 style="font-size:1.4rem;margin-bottom:6px">Send a service request</h3>
       <p style="color:#7a8499;font-size:.92rem;margin-bottom:26px">Prefer a form? Fill this out and we'll follow up.</p>
-      <form id="requestForm" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px">
+      <form id="requestForm" name="service-request" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thanks.html" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px">
+        <input type="hidden" name="form-name" value="service-request">
+        <p style="display:none"><label>Leave this field empty <input name="bot-field"></label></p>
         <label style="display:block">
           <span style="display:block;font-size:.82rem;font-weight:600;color:#2d3a4d;margin-bottom:7px">Name *</span>
           <input name="name" required placeholder="Your name" style="width:100%;padding:13px 14px;border:1px solid #dde1eb;border-radius:9px;background:#fff;font-size:.95rem" class="x10">
@@ -295,7 +297,7 @@ a,button,input,select,textarea{transition:background .2s,color .2s,border-color 
           <textarea name="message" rows="4" placeholder="What's the door doing?" style="width:100%;padding:13px 14px;border:1px solid #dde1eb;border-radius:9px;background:#fff;font-size:.95rem;resize:vertical" class="x15"></textarea>
         </label>
         <button type="submit" style="grid-column:1/-1;background:#636CFA;color:#fff;border:none;padding:16px;border-radius:10px;font-weight:600;font-size:1rem;cursor:pointer;box-shadow:0 6px 24px rgba(99,108,250,.28)" class="x16">Send request</button>
-        <p style="grid-column:1/-1;color:#7a8499;font-size:.84rem;text-align:center">Opens your email client. Texting 813-421-4787 is still faster.</p>
+        <p style="grid-column:1/-1;color:#7a8499;font-size:.84rem;text-align:center">We follow up the same day. Texting 813-421-4787 is still faster.</p>
       </form>
     </div>
   </div>
@@ -359,21 +361,5 @@ a,button,input,select,textarea{transition:background .2s,color .2s,border-color 
 </div>
 
 </div>
-<script>
-(function(){
-  var f=document.getElementById('requestForm');
-  if(!f)return;
-  f.addEventListener('submit',function(e){
-    e.preventDefault();
-    var d=new FormData(f),lines=[];
-    ['name','company','phone','email','service','message'].forEach(function(k){
-      var v=(d.get(k)||'').toString().trim();
-      if(v)lines.push(k.charAt(0).toUpperCase()+k.slice(1)+': '+v);
-    });
-    var subject='Service request — '+((d.get('name')||'').toString().trim()||'website');
-    window.location.href='mailto:steven@prioritylocks.com?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(lines.join('\n'));
-  });
-})();
-</script>
 </body>
 </html>
