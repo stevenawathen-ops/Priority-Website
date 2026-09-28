@@ -8,8 +8,176 @@
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
 
+[[headers]]
+  for = "/*.webp"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.jpg"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.png"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/llms.txt"
+  [headers.values]
+    Content-Type = "text/plain; charset=utf-8"
+
+[[headers]]
+  for = "/llms-full.txt"
+  [headers.values]
+    Content-Type = "text/plain; charset=utf-8"
+
+# www to the apex, as before
 [[redirects]]
   from = "https://www.prioritylocks.com/*"
   to = "https://prioritylocks.com/:splat"
   status = 301
   force = true
+
+# the old about page, still in Google's index, lands on the new one
+[[redirects]]
+  from = "/about-us"
+  to = "/about"
+  status = 301
+
+[[redirects]]
+  from = "/about-us/*"
+  to = "/about"
+  status = 301
+
+# clean URLs: /faq serves faq.html, with or without the slash
+[[redirects]]
+  from = "/commercial-locksmith"
+  to = "/commercial-locksmith.html"
+  status = 200
+
+[[redirects]]
+  from = "/commercial-locksmith/"
+  to = "/commercial-locksmith.html"
+  status = 200
+
+[[redirects]]
+  from = "/commercial-locks"
+  to = "/commercial-locks.html"
+  status = 200
+
+[[redirects]]
+  from = "/commercial-locks/"
+  to = "/commercial-locks.html"
+  status = 200
+
+[[redirects]]
+  from = "/panic-bars"
+  to = "/panic-bars.html"
+  status = 200
+
+[[redirects]]
+  from = "/panic-bars/"
+  to = "/panic-bars.html"
+  status = 200
+
+[[redirects]]
+  from = "/door-closers"
+  to = "/door-closers.html"
+  status = 200
+
+[[redirects]]
+  from = "/door-closers/"
+  to = "/door-closers.html"
+  status = 200
+
+[[redirects]]
+  from = "/storefront-doors"
+  to = "/storefront-doors.html"
+  status = 200
+
+[[redirects]]
+  from = "/storefront-doors/"
+  to = "/storefront-doors.html"
+  status = 200
+
+[[redirects]]
+  from = "/rekeying"
+  to = "/rekeying.html"
+  status = 200
+
+[[redirects]]
+  from = "/rekeying/"
+  to = "/rekeying.html"
+  status = 200
+
+[[redirects]]
+  from = "/tenant-turnover"
+  to = "/tenant-turnover.html"
+  status = 200
+
+[[redirects]]
+  from = "/tenant-turnover/"
+  to = "/tenant-turnover.html"
+  status = 200
+
+[[redirects]]
+  from = "/master-key-systems"
+  to = "/master-key-systems.html"
+  status = 200
+
+[[redirects]]
+  from = "/master-key-systems/"
+  to = "/master-key-systems.html"
+  status = 200
+
+[[redirects]]
+  from = "/residential-locksmith"
+  to = "/residential-locksmith.html"
+  status = 200
+
+[[redirects]]
+  from = "/residential-locksmith/"
+  to = "/residential-locksmith.html"
+  status = 200
+
+[[redirects]]
+  from = "/property-managers"
+  to = "/property-managers.html"
+  status = 200
+
+[[redirects]]
+  from = "/property-managers/"
+  to = "/property-managers.html"
+  status = 200
+
+[[redirects]]
+  from = "/faq"
+  to = "/faq.html"
+  status = 200
+
+[[redirects]]
+  from = "/faq/"
+  to = "/faq.html"
+  status = 200
+
+[[redirects]]
+  from = "/about"
+  to = "/about.html"
+  status = 200
+
+[[redirects]]
+  from = "/about/"
+  to = "/about.html"
+  status = 200
+
+[[redirects]]
+  from = "/service-area"
+  to = "/service-area.html"
+  status = 200
+
+[[redirects]]
+  from = "/service-area/"
+  to = "/service-area.html"
+  status = 200

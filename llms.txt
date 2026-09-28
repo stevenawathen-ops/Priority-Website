@@ -1,0 +1,44 @@
+# Priority Lock and Security
+
+> Priority Lock and Security LLC is a locksmith company in Tampa, Florida, founded in June 2021 and owned by Steve Wathen. Commercial door hardware is the main work, for property managers, building owners and businesses, with most of the work in and around Ybor City; residential rekeys, lock changes and deadbolts for homeowners as well. Insured. No car keys, no car lockouts, no safes. Text or call 813-421-4787. Monday to Friday, 7:30 AM to 5:30 PM.
+
+This file is the whole website in plain text, for AI assistants and anyone who prefers text. Every fact here is also on the pages linked below.
+
+## The facts
+
+- Legal name: Priority Lock and Security LLC. Public name: Priority Lock and Security (also written Priority Lock & Security, Priority Lock).
+- What: locksmith, commercial first, residential too. Founded June 2021. Owner Steve Wathen. Insured (general liability; certificate of insurance on request).
+- Phone, text or call: 813-421-4787. Email: steven@prioritylocks.com. Website: https://prioritylocks.com/
+- Hours: Monday to Friday, 7:30 AM to 5:30 PM. Weekends and after hours by arrangement.
+- Where: Tampa, Florida and about thirty minutes around downtown, in Hillsborough County. Ybor City first, then Downtown Tampa, Channel District, Tampa Heights, Seminole Heights, Hyde Park, South Tampa, West Tampa, Westshore, Temple Terrace, Town 'N' Country, Carrollwood, Citrus Park, Brandon, Riverview, Lutz.
+- No public street address: a mobile service that comes to the customer. No walk-in shop.
+- Commercial services: commercial lever locks, mortise locks and deadbolts (grade 1 and grade 2, ADA levers); panic bars and exit devices (rim, mortise, vertical rod) and fire exit door hardware; door closers (adjust, repair, replace); aluminum storefront door hardware (hook bolts, deadlatches, cylinders, pivots, alignment); door hardware repair (hinges, strikes, latches, alignment) and temporary lockup hardware; rekeying and lock changes; tenant turnover rekeys; master key systems and key control; mailbox locks; key cutting for building key systems; ongoing building support for property managers with several properties.
+- Residential services: rekeys, lock changes and deadbolt installation for homes and rentals.
+- Not offered: car keys, car lockouts, safes, gate motors, door and frame replacement, fire door inspection or certification. Not a 24 hour emergency lockout service; business lockouts for existing customers as they come up.
+- Customers: property managers, building owners, office managers, facilities teams; offices, retail and storefronts, restaurants, churches, schools, apartment communities, multi-tenant and mixed-use buildings; homeowners and landlords.
+- Licensing: Florida does not license locksmiths at the state level, and Hillsborough County stopped issuing, monitoring and registering locksmith licenses on July 1, 2025. Priority Lock and Security therefore advertises no license number and is insured instead.
+- Pricing, starting at: remote support as low as $50 an hour (by phone, text or video when a visit is not needed); residential lock work $100 an hour; commercial lock work $125 an hour; after hours $149 for the first hour, then one and a half times the hourly rate; key copies $3 each. The first hour on site is the visit; labor in quarter hours after that; real hardware quoted as a part; an estimate is a ceiling.
+- How to reach us fastest: text a photo of the door hardware to 813-421-4787 with a sentence about what it is doing. Same day answer during business hours, a price before anyone is scheduled, an estimate that is a ceiling.
+
+## Pages
+
+- [Home](https://prioritylocks.com/): who we are, what we do, service area, questions, contact
+- [Commercial locksmith in Tampa](https://prioritylocks.com/commercial-locksmith): the whole commercial service list and who it is for
+- [Commercial locks and levers](https://prioritylocks.com/commercial-locks): lever locks, mortise locks, deadbolts, ADA levers, grade 1 and 2
+- [Panic bars and exit devices](https://prioritylocks.com/panic-bars): exit devices, dogging, fire exit door hardware
+- [Door closers](https://prioritylocks.com/door-closers): slamming, not latching, hard to open, leaking closers
+- [Storefront door hardware](https://prioritylocks.com/storefront-doors): aluminum and glass doors, hook bolts, cylinders, pivots
+- [Rekeys and lock changes](https://prioritylocks.com/rekeying): rekey or replace, lost keys, keyed alike, mailbox locks, key cutting
+- [Tenant turnover rekeys](https://prioritylocks.com/tenant-turnover): suites and apartments rekeyed inside the master key system
+- [Master key systems and key control](https://prioritylocks.com/master-key-systems): keying plans, lost master keys, restricted keys
+- [Residential locksmith](https://prioritylocks.com/residential-locksmith): home rekeys, lock changes, deadbolts, landlords
+- [For property managers](https://prioritylocks.com/property-managers): how the account works, turnover, key control, paperwork
+- [Questions and answers](https://prioritylocks.com/faq): the full list of plain answers
+- [About Priority Lock and Security](https://prioritylocks.com/about): founded 2021, owner, insured, what we do and do not do
+- [Tampa service area](https://prioritylocks.com/service-area): every neighborhood and city we serve
+
+## Optional
+
+- [Everything in one text file](https://prioritylocks.com/llms-full.txt)
+
+Last updated: 2026-09-28
