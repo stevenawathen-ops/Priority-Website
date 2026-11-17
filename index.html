@@ -69,7 +69,7 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid #f2b7
 <p style="margin: 0 0 10px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #ffd75e; font-size: 0.95rem">Tampa locksmith, Ybor City and surrounding areas</p>
 <h1 class="hero-h1" style="margin: 0; font-family: Outfit, sans-serif; font-size: 3.1rem; line-height: 1.08">Doors that work. Locks that lock. Keys that match.</h1>
 <p style="margin: 14px 0 0; font-size: 1.22rem">We help Tampa homeowners, property managers and building owners keep their places secure, so you can stop thinking about your doors and get on with your life. Hinges lined up, doors sitting right in their frames, bolts that throw clean, and one easy set of keys.</p>
-<p style="margin: 18px 0 0; font-family: Outfit, sans-serif; font-weight: 700; font-size: 1.35rem; color: #ffd75e">Tell us how many locks you've got.</p>
+<p id="contact" style="margin: 18px 0 0; font-family: Outfit, sans-serif; font-weight: 700; font-size: 1.35rem; color: #ffd75e">Tell us how many locks you've got.</p>
 <div style="display: grid; gap: 12px; margin-top: 14px">
 <a class="btn" href="sms:+18134214787?&amp;body=Hi%2C%20I%20have%20(number)%20locks%20I%27d%20like%20rekeyed%20at%20(address)." style="background: #f2b705; color: #0f1629">Text us your lock count</a>
 <a class="btn" href="sms:+18134214787?&amp;body=Hi%2C%20I%20have%20(number)%20doors%20driving%20me%20nuts%20at%20(address).%20Here%27s%20what%20they%27re%20doing%3A%20" style="background: #ffffff; color: #0f1629">Text us the doors driving you nuts</a>
@@ -77,7 +77,7 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid #f2b7
 <a class="btn" href="tel:+18134214787" aria-label="Leave a voicemail at 813-421-4787" style="border: 2px solid rgba(255,255,255,0.6); color: #ffffff">Or call and leave a voicemail</a>
 </div>
 <p style="margin: 16px 0 0; padding-top: 14px; border-top: 1px solid rgba(255,255,255,0.25); font-size: 1rem">We text you back a ballpark price within minutes, Monday to Friday, 8 AM to 5 PM. Rekeying up to about 4 locks usually fits in the first hour: $125, trip included. A photo helps but is not needed. Prefer voice? Calls go to voicemail: leave your name, number and what you need, and we text you back. No obligation.</p>
-<p style="margin: 10px 0 0; font-size: 1rem">Messages after 5 PM or on weekends are answered the next business morning. On a computer? Use the form further down or email us.</p>
+<p style="margin: 10px 0 0; font-size: 1rem">Messages after 5 PM or on weekends are answered the next business morning. On a computer? Email us.</p>
 </div>
 </div>
 </section>
@@ -187,44 +187,12 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid #f2b7
 </div>
 </section>
 
-<section id="contact" style="padding: 64px 0; background: #ffffff">
-<div class="wrap split">
-<div>
-<h2 style="font-family: Outfit, sans-serif; font-size: 2.1rem; margin: 0 0 12px; color: #0f1629">Rather write it out?</h2>
-<p style="margin: 0 0 12px">Send us a note here. Tell us how many locks or doors, where, and what's going on. We reply within minutes during business hours, Monday to Friday, 8 AM to 5 PM.</p>
-<p style="margin: 0">Or text <a href="sms:+18134214787">813-421-4787</a>, or email <a href="mailto:steven@prioritylocks.com">steven@prioritylocks.com</a>.</p>
-</div>
-<form name="service-request" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thanks.html" style="background: #f6f7fb; border-radius: 16px; padding: 24px; display: grid; gap: 10px">
-<input type="hidden" name="form-name" value="service-request">
-<p style="position: absolute; left: -999px"><label for="sr-bot">Leave this empty</label><input id="sr-bot" name="bot-field"></p>
-<label for="sr-name" style="font-weight: 700">Your name</label>
-<input id="sr-name" name="name" required autocomplete="name" style="font-size: 18px; padding: 12px; border: 2px solid #5b6178; border-radius: 10px">
-<label for="sr-phone" style="font-weight: 700">Phone, so we can text you back</label>
-<input id="sr-phone" name="phone" type="tel" required autocomplete="tel" style="font-size: 18px; padding: 12px; border: 2px solid #5b6178; border-radius: 10px">
-<label for="sr-email" style="font-weight: 700">Email (optional)</label>
-<input id="sr-email" name="email" type="email" autocomplete="email" style="font-size: 18px; padding: 12px; border: 2px solid #5b6178; border-radius: 10px">
-<label for="sr-company" style="font-weight: 700">Business name (optional)</label>
-<input id="sr-company" name="company" autocomplete="organization" style="font-size: 18px; padding: 12px; border: 2px solid #5b6178; border-radius: 10px">
-<label for="sr-service" style="font-weight: 700">What do you need?</label>
-<select id="sr-service" name="service" style="font-size: 18px; padding: 12px; border: 2px solid #5b6178; border-radius: 10px">
-<option value="">Choose one</option><option>Rekey my home</option><option>Lock or deadbolt replacement</option><option>A door that won't latch or close</option><option>Door closer</option><option>Panic bar or exit hardware</option><option>Storefront door</option><option>Tenant turnover rekey</option><option>Master keys or key control</option><option>Something else</option>
-</select>
-<label for="sr-best" style="font-weight: 700">Best days or times to reach you (optional)</label>
-<input id="sr-best" name="best_time" style="font-size: 18px; padding: 12px; border: 2px solid #5b6178; border-radius: 10px">
-<label for="sr-message" style="font-weight: 700">How many locks or doors, where, and what's going on</label>
-<textarea id="sr-message" name="message" rows="4" required style="font-size: 18px; padding: 12px; border: 2px solid #5b6178; border-radius: 10px"></textarea>
-<button type="submit" style="margin-top: 6px; background: #f2b705; color: #0f1629; font-weight: 700; font-size: 18px; padding: 14px 22px; border: 0; border-radius: 12px; min-height: 52px; cursor: pointer">Send it</button>
-<p style="margin: 4px 0 0; font-size: 0.95rem">No photo needed here. If you have one, text it to 813-421-4787.</p>
-</form>
-</div>
-</section>
-
 <section id="realtors" style="padding: 64px 0; background: #e6e8fb">
 <div class="wrap split">
 <div>
 <h2 style="font-family: Outfit, sans-serif; font-size: 2.1rem; margin: 0 0 12px; color: #0f1629">Realtors: your buyers get $25 off</h2>
-<p style="margin: 0 0 12px">Register once. When a buyer you sold a home to texts us for a rekey and gives your name, we take $25 off their visit. A simple thank you for the people you send our way.</p>
-<p style="margin: 0">We only use your details to check the discount. No mailing list. The $25 applies to home rekeys.</p>
+<p style="margin: 0 0 12px">For realtors. Sign up once below. When a buyer you sold a home to texts us from their new home and tells us your name, their first visit is $25 off.</p>
+<p style="margin: 0">We check the name against this list. We use your details for nothing else.</p>
 </div>
 <form name="realtor-registry" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thanks.html" style="background: #ffffff; border-radius: 16px; padding: 24px; display: grid; gap: 12px">
 <input type="hidden" name="form-name" value="realtor-registry">
